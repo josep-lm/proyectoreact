@@ -7,6 +7,7 @@ function Holamundo(){
 
 }
 
+
 function Bola(){
   return <div className="rodona"></div>
 }
@@ -38,7 +39,7 @@ function Capital(props){
   return <div className="lletra">
     <h1 className="lletragran">{props.nom[0]}</h1>
     <p className="lletranormal">{props.nom}</p>
-    
+
   </div>
 
 }
